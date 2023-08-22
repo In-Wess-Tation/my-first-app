@@ -37,6 +37,8 @@ const Location = () => {
 
       <h1>This is static Location</h1>
 
+      <h2>This is the Static position</h2>
+
       <p>Latitude: {myPos?.coords.latitude} </p>
       <p>Longitude: {myPos?.coords.longitude} </p>
       <p>Altitude: {myPos?.coords.altitude} </p>
@@ -44,7 +46,7 @@ const Location = () => {
       <p>Accuracy: {myPos?.coords.accuracy} </p>
 
 
-      <h1>This is dynamic position</h1>
+      <h2>This is dynamic position</h2>
 
         <p>Latitude: {dynPos?.coords.latitude} </p>
         <p>Longitude: {dynPos?.coords.longitude} </p>
