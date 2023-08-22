@@ -2,9 +2,9 @@
 
 const Location = () => {
     return ( 
-        <main>
-            
-        </main>
+       <section>
+        
+       </section>
      );
 }
  

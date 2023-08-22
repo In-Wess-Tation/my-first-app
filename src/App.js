@@ -1,22 +1,20 @@
 import React from 'react';
 import './App.css';
 import { Outlet } from 'react-router-dom';
+import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <>
-    <header>
-        <p>This is the header</p>
-    </header>
+    <Header />
 
-    <main>
-        <Outlet/>
-    </main>
+     <main>
+         <Outlet/>
+     </main>
 
-    <footer>
-        <p>This is the footer</p>
-    </footer>
-</>
+     <Footer />
+     </>
   );
 }
 
