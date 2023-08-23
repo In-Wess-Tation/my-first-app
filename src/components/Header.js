@@ -1,14 +1,19 @@
 import { Link } from "react-router-dom";
+import styled from "@emotion/styled";
 
+const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: black;
+`;
 
 const Header = () => {
     return ( 
         <header>
             <p>This is the header</p>
             <div className="links">
-            <Link to={"/"}>Home</Link>
-            <Link to={"/location"}>Location</Link>
-            <Link to={"/geolocation"}>GeoLocation</Link>
+            <StyledLink to={"/"}>Home</StyledLink>
+            <StyledLink to={"/location"}>Location</StyledLink>
+            <StyledLink to={"/geolocation"}>GeoLocation</StyledLink>
             </div>
         </header>
      );

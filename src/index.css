@@ -12,7 +12,27 @@ code {
     monospace;
 }
 
+header {
+  background-color: lightgrey;
+  padding: 2rem;
+}
+
 .links{
   display: flex;
   gap: 2rem;
+}
+.linkStyle {
+  text-decoration: none;
+}
+
+main {
+  padding: 1.5rem;
+  min-height: 55vh;
+}
+
+footer {
+  background-color: rgb(52, 52, 52);
+  color: lightgray;
+  padding: 2rem;
+  margin-top: auto;
 }
