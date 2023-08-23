@@ -28,7 +28,7 @@ const GeoLocation = () => {
                     <p>longitude</p>
                     <p>{coords.longitude}</p>
                 </div>
-                <div className="fex">
+                <div className="flex">
                     <p>altitude</p>
                     <p>{coords.altitude}</p>
                 </div>
