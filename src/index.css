@@ -29,6 +29,10 @@ main {
   padding: 2rem;
   min-height: 60vh;
 }
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
 
 footer {
   background-color: rgb(52, 52, 52);

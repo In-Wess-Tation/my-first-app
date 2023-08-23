@@ -20,26 +20,26 @@ const GeoLocation = () => {
         <table>
             <tbody>
                 <h1>This is the GeoLocation</h1>
-                <tr>
-                    <td>latitude</td>
-                    <td>{coords.latitude}</td>
-                </tr>
-                <tr>
-                    <td>longitude</td>
-                    <td>{coords.longitude}</td>
-                </tr>
-                <tr>
-                    <td>altitude</td>
-                    <td>{coords.altitude}</td>
-                </tr>
-                <tr>
-                    <td>heading</td>
-                    <td>{coords.heading}</td>
-                </tr>
-                <tr>
-                    <td>speed</td>
-                    <td>{coords.speed}</td>
-                </tr>
+                <div className="flex">
+                    <p>latitude</p>
+                    <p>{coords.latitude}</p>
+                </div>
+                <div className="flex">
+                    <p>longitude</p>
+                    <p>{coords.longitude}</p>
+                </div>
+                <div className="fex">
+                    <p>altitude</p>
+                    <p>{coords.altitude}</p>
+                </div>
+                <div className="flex">
+                    <p>heading</p>
+                    <p>{coords.heading}</p>
+                </div>
+                <div className="flex">
+                    <p>speed</p>
+                    <p>{coords.speed}</p>
+                </div>
             </tbody>
         </table>
     ) : (
