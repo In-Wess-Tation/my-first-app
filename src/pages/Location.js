@@ -16,8 +16,6 @@ const Location = () => {
     }
   }, []);
 
- 
-
   const handleDynamicPosition = (position) => {
     setDynPos(position);
   };

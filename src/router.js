@@ -2,6 +2,7 @@ import { createBrowserRouter, createRoutesFromElements, Route } from "react-rout
 import App from "./App";
 import Home from "./pages/Home";
 import Location from "./pages/Location";
+import GeoLocation from "./pages/GeoLocation";
 
 
 export const router = createBrowserRouter(
@@ -9,6 +10,7 @@ export const router = createBrowserRouter(
         <Route path="/" element={<App />}>
             <Route index element={<Home />}/>
             <Route path="/location" element={<Location />}/>
+            <Route path="/geolocation" element={<GeoLocation />}/>
         </Route>
     )
 )
