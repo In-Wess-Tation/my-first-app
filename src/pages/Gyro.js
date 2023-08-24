@@ -35,6 +35,12 @@ const Gyro = () => {
         })
     }
 
+    const handleVibrator = () => {
+        if("vibrate" in navigator) {
+            navigator.vibrate(200)
+        }
+    }
+
     return ( 
         <section>
             <h1>Gyroscope</h1>
@@ -51,6 +57,8 @@ const Gyro = () => {
                     Enable on IPhone
                 </button>
              : null}
+
+             <button onClick={handleVibrator}>Click to make phone vibrate</button>
         </section>
      );
 }
