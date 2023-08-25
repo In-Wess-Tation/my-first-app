@@ -16,6 +16,7 @@ const Header = () => {
             <StyledLink to={"/geolocation"}>GeoLocation</StyledLink>
             <StyledLink to={"/gyro"}>Gyroscope</StyledLink>
             <StyledLink to={"/mymap"}>Map</StyledLink>
+            <StyledLink to={"/localbase"}>Localbase</StyledLink>
             </div>
         </header>
      );
