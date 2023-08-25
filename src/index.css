@@ -18,7 +18,9 @@ header {
 }
 
 .links{
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   gap: 2rem;
 }
 .linkStyle {
