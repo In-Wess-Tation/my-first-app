@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import Location from "./pages/Location";
 import GeoLocation from "./pages/GeoLocation";
 import Gyro from "./pages/Gyro";
-import Map from "./pages/Map";
+import MyMap from "./pages/MyMap";
 
 export const router = createBrowserRouter(
     createRoutesFromElements(
@@ -13,7 +13,7 @@ export const router = createBrowserRouter(
             <Route path="/location" element={<Location />}/>
             <Route path="/geolocation" element={<GeoLocation />}/>
             <Route path="/gyro" element={<Gyro />}/>
-            <Route path="/map" element={<Map />}/>
+            <Route path="/mymap" element={<MyMap />}/>
         </Route>
     )
 )
